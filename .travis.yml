@@ -1,6 +1,5 @@
 language: node_js
-install:
-  - nvm install stable
+nvm: 0.33.1
 script:
   - gatsby build
 after_success: 
