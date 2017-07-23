@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 export default () => 
   <div style={{ color: `tomato` }}>
-    <h1>Hello Sam!</h1>
+    <h1>Hello world, this is Sam!</h1>
     <p>What a world.</p>
     <img src="http://lorempixel.com/400/200/" />
     <br />
