@@ -3,9 +3,10 @@ nvm: 0.33.1
 node_js: 7.9.0
 script:
   - gatsby build
+  - cd public
 env:
   global:
     - "FTP_USER=ojling.com"
     - "FTP_PASSWORD=bf9CHRRsu+rucPFVcsYJFGfG"
 after_success:
-    "find public -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://s157631.gridserver.com:21//domains/ojling.com/html/dev/{} \;"
+    "find . -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://s157631.gridserver.com:21//domains/ojling.com/html/dev/{} \;"
