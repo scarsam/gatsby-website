@@ -7,5 +7,5 @@ export default () =>
     <p>What a world.</p>
     <img src="http://lorempixel.com/400/200/" />
     <br />
-    <Link to="/my-second-gatsby-page/">Link</Link>
+    <Link to="dev/my-second-gatsby-page/">Link</Link>
   </div>
