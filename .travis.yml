@@ -8,4 +8,4 @@ env:
     - "FTP_USER=ojling.com"
     - "FTP_PASSWORD=bf9CHRRsu+rucPFVcsYJFGfG"
 after_success:
-    "curl -k  -u $FTP_USER:$FTP_PASSWORD -T public/ s157631.gridserver.com/domains/ojling.com/html/dev/"
+    "curl -k  -u $FTP_USER:$FTP_PASSWORD -T public/ ftp://s157631.gridserver.com:21//domains/ojling.com/html/dev/"
