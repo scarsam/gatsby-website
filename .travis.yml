@@ -9,4 +9,4 @@ script:
   - gatsby build
   - cd public
 after_success:
-    "find . -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://s157631.gridserver.com:21//domains/ojling.com/html/dev/{}\;"
+    find . -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://s157631.gridserver.com:21//domains/ojling.com/html/dev/{} \;
