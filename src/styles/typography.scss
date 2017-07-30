@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500|Rubik:700,900');
+
+body {
+  color: $black;
+  font-family: 'Roboto Mono', monospace;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: $blue;
+  font-family: 'Rubik', sans-serif;
+  font-size: 100px;
+}
