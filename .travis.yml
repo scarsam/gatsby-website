@@ -1,6 +1,9 @@
 language: node_js
 nvm: 0.33.1
 node_js: 7.9.0
+branches:
+  only:
+    - master
 env:
   global:
     - secure: HVrKfoHBW7KdrZNfwf/W9yrkh3Jdl1a874GaOfPcboQe2zwbY+iGa/R8W2K9dtr5FUprUeZSOh3/UrwHdLiUt1LsiHX45z4vg3UdtbyWDq6FqfXLg1ToeizWYGLcu7rZIJk4VB+ThindEu/mIQyuetmVoRDfjidTvMQxSxf5JKLaoyFbOEzEGC9OaUorQ1bzi4ywKD5KvbB6JB0sGc6KXhfaySE66ooXBrHRg91e2lnwyzC320aFliVfaKf/RGAONuVZrC7n+lXx07P6OE0hlC9YPOv9fKDg8yC6ExKDi/VKe17qS931yR8lxxEB2w+ZlElAgYEppgVXKzvzDBacZjCiqWvFOvAXh+p+5nQkpHR5JXe4iBC3JjV1YW4Fs3tux6nAfL2q8XVWGWZWvW7G02EyXAMHV12tb/WlkhkKXMIYArgXHrCbUjBooVjE7FSY/XZ9C+peQbek4pjA9AyXVIBSoTkAFn6i+z+G9XOCKMtMXSsmZCflqiwA5R0HnsIREsjzZ6Nir2vhWcuEeCC0iciv+f6+ZvCvAiPCqeCH46TD9KG/mSNusUPSe26tIn/wq1J8bSg0Ua2xyUFvbECYVmfgfZZ0AylQj6IA5FpNr9oIZbrqSbxspszujDtXBt/qCXf6x5OvCMBDkKbqLzolJ06XcXowFBkze1M2R68bVr8=
