@@ -1,7 +1,9 @@
 module.exports = {
+  pathPrefix: `/dev`,
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
+    `gatsby-plugin-typography`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -16,5 +18,4 @@ module.exports = {
       }
     },
   ],
-  pathPrefix: `/dev`
 };
