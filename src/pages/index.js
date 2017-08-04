@@ -14,10 +14,10 @@ export default function Index({
           .map(({ node: post }) => {
             return (
               <div className="blog-post-preview" key={post.id}>
+                <h2>{post.frontmatter.date}</h2>
                 <h1>
                   <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                 </h1>
-                <h2>{post.frontmatter.date}</h2>
                 <p>{post.excerpt}</p>
               </div>
             );
