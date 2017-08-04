@@ -2,6 +2,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
+    `gatsby-plugin-typography`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
