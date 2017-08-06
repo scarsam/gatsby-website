@@ -1,7 +1,14 @@
-body {
-  background-color: $white;
-}
 main {
   max-width: 960px;
   margin: 0 auto;
+  padding-top: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.blog-post-content {
+  padding: 15px 0;
+}
+.blog-post-preview {
+  padding-bottom: 30px;
 }
