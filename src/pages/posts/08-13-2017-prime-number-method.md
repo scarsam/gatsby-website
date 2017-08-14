@@ -13,21 +13,7 @@ After a few hours of testing a finally got some code that passed the test. So we
 
 By using `return false if` `num < 2` I was able to get rid of the `if else` statement and made it easier to read it code. Also was able to get rid of `return false if` by using `.none?`, I realized that nesting logic makes it harder to understand the code.
 ##### Cleaner solution
-```
-def prime?(num)
-  return false if num < 2
-  (2...num).none? { |n| (num % n).zero? }
-end
-```
+<script src="https://gist.github.com/scarsam/384fbaf6834575782a1080c9510c5bea.js"></script>
 
 ##### First solution
-```
-def prime?(num)
-  if num > 1
-    (2...num).each { |n| return false if (num % n).zero? }
-    true
-  else
-    false
-  end
-end
-```
+<script src="https://gist.github.com/scarsam/ab8aeb7e6b2f1b03b780ed0ee030b58c.js"></script>
